@@ -15,7 +15,7 @@ function ktraChanLe(n) { // n là tham số của hàm
     }
 }
 ktraChanLe(n);
-function tinhTong2so(a,b) {// không trả về
+function tinhTong2so(a,b) {// không trả về tất cả mọi xử lý được đóng gói hết trong hàm 
     alert(a+b);
 }
 function tinhTong2soReturn(a,b) { // có trả về
@@ -31,3 +31,12 @@ tinhTong2so(5,7);
 // } else {
 //     alert("day la so le ");
 // }
+// xây dựng các hàm sau :
+// hàm tính chu vi và hàm tính diện tích của hình chữ nhật viết bằng
+//  (hàm có trả về và không trả về)
+// viết hàm tính lũy thừa truyền vào tham số a,n output là a^n 
+// ví dụ 
+// a =2 b = 3 
+// output 2^3 =8 (Viết bằng hàm có trả về và hàm không trả về )
+//viết hàm giải phương trình bậc 2 ax^2 + bx + c = 0 bằng hàm (có trả về,không trả về)
+//csdfdsfd
